@@ -10,9 +10,7 @@ import java.util.Optional;
 
 @Service
 public class VehicleServiceImpl implements VehicleService{
-
     private final VehicleRepository vehicleRepository;
-
     public VehicleServiceImpl(VehicleRepository vehicleRepository) {
         this.vehicleRepository = vehicleRepository;
     }
