@@ -1,5 +1,4 @@
 package ng.com.nokt.demodelivery.controllers;
-
 import ng.com.nokt.demodelivery.entites.Item;
 import ng.com.nokt.demodelivery.entites.Vehicle;
 import ng.com.nokt.demodelivery.services.ItemService;
@@ -60,5 +59,5 @@ public class DeliveryController {
         itemService.createItem(item);
         model.addAttribute("item", item).addAttribute("allItems", itemService.getAllItems());
         return "redirect:/create-item";
-}
+    }
 }
